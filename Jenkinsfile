@@ -28,17 +28,17 @@ node{
         sh "sed -i.bak 's/#JOB-NAME#/$JOB_NAME/' deployment.yaml"
       }
           
-    /*
+   
       //// ********* For Azure Cluster**************************
       stage('Deploy'){
          def k8Apply= "kubectl apply -f deployment.yaml" 
          withCredentials([string(credentialsId: 'k8pwd', variable: 'k8PWD')]) {
-          sh "sshpass -p ${k8PWD} ssh -o StrictHostKeyChecking=no ubuntu@104.211.154.236" 
-          sh "sshpass -p ${k8PWD} scp -r deployment.yaml ubuntu@104.211.154.236:/home/ubuntu" 
-          sh "sshpass -p ${k8PWD} ssh  -o StrictHostKeyChecking=no ubuntu@104.211.154.236 ${k8Apply}"
+          sh "sshpass -p ${k8PWD} ssh -o StrictHostKeyChecking=no ubuntu@104.211.177.203" 
+          sh "sshpass -p ${k8PWD} scp -r deployment.yaml ubuntu@104.211.177.203:/home/ubuntu" 
+          sh "sshpass -p ${k8PWD} ssh  -o StrictHostKeyChecking=no ubuntu@104.211.177.203 ${k8Apply}"
          }
        }
-      */
+     
          
        
     
