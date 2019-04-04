@@ -29,7 +29,7 @@ node{
       }
           
     /*
-      // ********* For Azure Cluster**************************
+      //// ********* For Azure Cluster**************************
       stage('Deploy'){
          def k8Apply= "kubectl apply -f deployment.yaml" 
          withCredentials([string(credentialsId: 'k8pwd', variable: 'k8PWD')]) {
