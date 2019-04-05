@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>PwC Docker Lab's</title>
+    <title>Mercedes Lab's</title>
 
     <!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
@@ -126,7 +126,7 @@
               <div class="card mb-6 box-shadow">
                 <img class="card-img-top" src="docker.png" alt="Card image cap" width="243px;" style="text-align:center!important;">
                 <div class="card-body">
-                  <p class="card-text">Learning Ã¢Â€Â” Blended to Perfection</p>
+                  <p class="card-text">Learning and Blended to Perfection</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -137,9 +137,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4"> 
-               <div class="card mb-4 box-shadow"> 
-                <img class="card-img-top" src="java.png" alt="Card image cap"> 
+            <div class="col-md-6"> 
+               <div class="card mb-6 box-shadow"> 
+                <img class="card-img-top" src="java.png" alt="Card image cap" width="243px;" style="text-align:center!important;"> 
                <div class="card-body"> 
                   <p class="card-text">Validated & Certified</p>
                    <div class="d-flex justify-content-between align-items-center"> 
