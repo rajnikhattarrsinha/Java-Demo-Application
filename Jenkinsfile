@@ -1,5 +1,6 @@
 node{
       
+      //test
       stage('SCM Checkout'){
          git 'https://github.com/rajnikhattarrsinha/Java-Demo-Application'
       }
